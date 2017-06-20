@@ -21,7 +21,7 @@ namespace Kontrollstrukturen
             {
                 Console.WriteLine("Exakt 50 !");
             }
-            else
+            else 
             {
                 Console.WriteLine($"{eingabe} ist kleiner als 50");
             }
