@@ -43,6 +43,15 @@ namespace Schleifen
             // Übung: Benutzer muss eine Zahl zwischen 0 und 100 eingeben.
             // Wenn ungültig -> neustart
 
+
+            int benutzereingabe = 0;
+            do
+            {
+                Console.WriteLine("Bitte geben Sie eine Zahl zwischen 0 und 100 ein");
+                benutzereingabe = Convert.ToInt32(Console.ReadLine());
+            } while (benutzereingabe < 0 || benutzereingabe > 100);
+
+            Console.WriteLine(benutzereingabe);
             Console.ReadKey();
         }
     }
