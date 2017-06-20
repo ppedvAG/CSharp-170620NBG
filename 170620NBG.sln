@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tag1", "Tag1", "{37D9AB99-9706-434F-912D-69F9D1EA6D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tag2", "Tag2", "{362D8CE9-F1B1-428A-A185-2399DEDACC94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tag3", "Tag3", "{A380893E-F9DA-4687-A7CC-4730DB0DF457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tag4", "Tag4", "{1D6114FB-ADB1-4819-B960-7F4D379A6ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrollstrukturen", "Tag1\Kontrollstrukturen\Kontrollstrukturen.csproj", "{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB} = {37D9AB99-9706-434F-912D-69F9D1EA6D7B}
+	EndGlobalSection
+EndGlobal
