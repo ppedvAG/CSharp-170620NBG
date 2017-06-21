@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schleifen", "Tag1\Schleifen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZahlenRaten", "Tag1\ZahlenRaten\ZahlenRaten.csproj", "{15308741-B94D-4ED7-9E78-A2554121EFD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fehlerbehandlung", "Tag2\Fehlerbehandlung\Fehlerbehandlung.csproj", "{2DC8A419-0C8D-4472-A4E4-823305693795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{15308741-B94D-4ED7-9E78-A2554121EFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15308741-B94D-4ED7-9E78-A2554121EFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15308741-B94D-4ED7-9E78-A2554121EFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC8A419-0C8D-4472-A4E4-823305693795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC8A419-0C8D-4472-A4E4-823305693795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC8A419-0C8D-4472-A4E4-823305693795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC8A419-0C8D-4472-A4E4-823305693795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +49,6 @@ Global
 		{9DE9CCCA-90A2-49B7-91DD-EB53DE25A1BB} = {37D9AB99-9706-434F-912D-69F9D1EA6D7B}
 		{10CDBE9D-75DE-4DB2-B73E-ED09E1A9A1F3} = {37D9AB99-9706-434F-912D-69F9D1EA6D7B}
 		{15308741-B94D-4ED7-9E78-A2554121EFD5} = {37D9AB99-9706-434F-912D-69F9D1EA6D7B}
+		{2DC8A419-0C8D-4472-A4E4-823305693795} = {362D8CE9-F1B1-428A-A185-2399DEDACC94}
 	EndGlobalSection
 EndGlobal

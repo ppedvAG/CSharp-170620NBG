@@ -103,7 +103,7 @@ namespace ZahlenRaten
                 {
                     Console.WriteLine("Zufallszahl erraten!");
                     break; // Schleife wird beendet
-                } 
+                }
             } while (true); // == Endlosschleife
 
             Console.ReadKey();
