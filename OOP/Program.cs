@@ -51,13 +51,52 @@ namespace OOP
 
             Taschenrechner t = new Taschenrechner();
 
-            int ergebnis = t.Addieren(10, 5);
-            Console.WriteLine(ergebnis);
+            //int meineZahl = 10;
+            //int ergebnis = t.Verdoppeln(ref meineZahl);
 
-            /*
-             * Ziel:
-             * t.Subtrahieren / Multiplizieren / Dividieren
-             */
+            //Console.WriteLine(ergebnis);
+            //Console.WriteLine(meineZahl);
+
+            // out - Parameter
+            //string text = "12345";
+            //int konvertierteZahl = 0;
+
+            //if(Int32.TryParse(text, out konvertierteZahl) == true)
+            //{
+            //    // konvertierbar
+            //}
+            //else
+            //{
+            //    // keine gültige Int32-Zahl
+            //}
+
+            int[] meineZahlen = new int[3];
+
+            meineZahlen[0] = 9;
+            meineZahlen[1] = 7;
+            meineZahlen[2] = 12;
+
+            Console.WriteLine(meineZahlen[1]);
+
+            // Array-Initialisierer
+            //string[] wochentage = new string[] { "Montag", "Dienstag", "Mittwoch", "..." };
+            // Kurzschreibweise
+            string[] wochentage = { "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag","Samstag","Sonntag" };
+
+            //Console.WriteLine(wochentage[2]);
+
+            foreach (string Tag in wochentage)
+            {
+                Console.WriteLine(Tag);
+            }
+
+            // Mehrdimensional
+            // int[,] schachbrett = new int[8, 8];
+
+            int ergebnis = t.Addieren(12,9,4,6,8);
+            ergebnis = t.Addieren(9,9,9,9,9,9,9,9,9);
+
+            Console.WriteLine("Die Summe aus {0} und {1} ist {2}", 33, 66, 99);
 
             Console.ReadKey();
         }
