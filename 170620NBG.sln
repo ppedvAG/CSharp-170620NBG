@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vererbung", "Tag2\Vererbung
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphie", "Tag2\Polymorphie\Polymorphie.csproj", "{21EAEF4A-D106-4326-A7EE-1A1F17B2D111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpezielleKlassen", "Tag3\SpezielleKlassen\SpezielleKlassen.csproj", "{F9F33F70-41DF-4884-AE03-4337130A8B79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{21EAEF4A-D106-4326-A7EE-1A1F17B2D111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21EAEF4A-D106-4326-A7EE-1A1F17B2D111}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21EAEF4A-D106-4326-A7EE-1A1F17B2D111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F33F70-41DF-4884-AE03-4337130A8B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F33F70-41DF-4884-AE03-4337130A8B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F33F70-41DF-4884-AE03-4337130A8B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F33F70-41DF-4884-AE03-4337130A8B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{06B6E943-7558-4BDE-AC47-E7951AD3020A} = {362D8CE9-F1B1-428A-A185-2399DEDACC94}
 		{CC1457F6-279E-4448-8097-26042A019533} = {362D8CE9-F1B1-428A-A185-2399DEDACC94}
 		{21EAEF4A-D106-4326-A7EE-1A1F17B2D111} = {362D8CE9-F1B1-428A-A185-2399DEDACC94}
+		{F9F33F70-41DF-4884-AE03-4337130A8B79} = {A380893E-F9DA-4687-A7CC-4730DB0DF457}
 	EndGlobalSection
 EndGlobal
